@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:burlywood;
+    height: 130vh;
+}
+.logolion {
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+    padding: 60px 0;
+}
+img {
+    display: inline-flex;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border: 10px solid white;
+}
+header{
+    display: flex;
+}
+li {
+    display: inline;
+    margin: 0 40px;
+    position: relative;
+    left: 750px;
+}
+main {
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+footer {
+    background-color:aquamarine;
+
+}
+p {
+    position: relative;
+    left: 200px;
+}
+
